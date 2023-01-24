@@ -2,21 +2,21 @@
 arch = "x86_64"
 cuda = "11.3"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "3bd643ab2e912dbd0963412e3d0f88db43a8ddd1"
+git-tree-sha1 = "59870ec20f98dfc7b51681d36b325898034c2b91"
 libc = "glibc"
 os = "linux"
 
     [[MAGMA.download]]
-    sha256 = "70afc71fd2a5f6563bbde94f3c5a3b44b0dc524a089768e80ce8e057bebf66f4"
+    sha256 = "3b1bbaf9d509762fc90dd71b5e03d72c48e3d238b9bf430c452c0899c9e3cd49"
     url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.7.0+0/MAGMA.v2.7.0.x86_64-linux-gnu-cxx03-cuda+11.3.tar.gz"
 [[MAGMA]]
 arch = "x86_64"
 cuda = "11.3"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ed850a9c2507219d91d4a59ec39d84d30622bf32"
+git-tree-sha1 = "96dc939ad1c8976adf0ec130651b951fd967c012"
 libc = "glibc"
 os = "linux"
 
     [[MAGMA.download]]
-    sha256 = "9ac20c348af3c1a2f26372deb927710904b53273758d7506e2309764458fa8a5"
+    sha256 = "3dc26a815c62464bc89115d271416792db1362dbf5aacd3d4bc1ee392a31f777"
     url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.7.0+0/MAGMA.v2.7.0.x86_64-linux-gnu-cxx11-cuda+11.3.tar.gz"
