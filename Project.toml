@@ -1,6 +1,6 @@
 name = "MAGMA_jll"
 uuid = "7a7c8717-d270-5a90-94a0-6104d6fc12ee"
-version = "2.7.0+0"
+version = "2.7.0+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
