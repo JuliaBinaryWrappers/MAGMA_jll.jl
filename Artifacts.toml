@@ -1,22 +1,606 @@
 [[MAGMA]]
 arch = "x86_64"
-cuda = "11.3"
+cuda = "12.0"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "6cfad75723348060efed060db0ada2dec4554922"
+git-tree-sha1 = "96cbe7e5b2295cdbd2758417c86e6ea1e8c9dd8f"
 libc = "glibc"
 os = "linux"
 
     [[MAGMA.download]]
-    sha256 = "0f81eba26fa3e200182acef8e40e430ca9b5ec66673de12beeb0298fac3a0111"
-    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.7.0+1/MAGMA.v2.7.0.x86_64-linux-gnu-cxx03-cuda+11.3.tar.gz"
+    sha256 = "24364b85b38e5cc7beca176a1812feceb6d25803f8ccd3a005d0a14d246f2222"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx03-cuda+12.0.tar.gz"
 [[MAGMA]]
 arch = "x86_64"
-cuda = "11.3"
+cuda = "12.0"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2dfb31757cdc81f3431df8f9a748c251b3d3638d"
+git-tree-sha1 = "a41839a23f059bb6fbeaf891a0e080d677fb8dcc"
 libc = "glibc"
 os = "linux"
 
     [[MAGMA.download]]
-    sha256 = "a590b36db4bc8956fa5e3960dd4d42108c31efceb67a2368bbeac13ac2bfd3d6"
-    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.7.0+1/MAGMA.v2.7.0.x86_64-linux-gnu-cxx11-cuda+11.3.tar.gz"
+    sha256 = "9e7383c03931ea6c721e2cbbad8f2ae8003d6aedff046a8cf1a1c9f9aef7af2d"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx11-cuda+12.0.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "95f8089db9dd5f8647ee9fd3fd8847d0c40ea788"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "2ae481615848535a2261b720cf45f6cd78572404175023686f4732e6f3fca453"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.0-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5d29c25d99cbed84ff762f2588d21b6e54b06638"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "83986bd6b85d3f646c31403e2023a1613502ae3a19abb55703cb2e97bbbfd04d"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.0-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5f590dcb11d4a171836f5c5b7ac60e097e31640d"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "bddab6dedb488703d0b326ec413401e5ab900c7c7fe3b356d5b07e2d0208ab6e"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.0-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bd5c24d799c8cbdf5f1ba9c3f609ae63151ac5b2"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "a498b7dcd4b4b3e01ebe284848655b3ded2eade83e5743161180cd99497e9da1"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.0-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.1"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6ff33029ed9406f3751f9e194734b2f9e65cffdb"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "d1215b62429108db3331dbaf5135e89cf4a3e877bfc76b7fbb6ab7c52287032e"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx03-cuda+12.1.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.1"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a011e121d2ffc63e18e49539020f9b4b7a1dd1e7"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "7f6cc146232bb671c5e6c73677e775f1f5a702e0256c8d667e71d6593e670262"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx11-cuda+12.1.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.1"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f14d33099fd98700ceacd4546e9a3c1dc0fd9f22"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "fb45450c06d7ec537e5a1e27392bfdd304f9f2e6ba3d47ccbe5eae64fd3b437f"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.1-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.1"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e5765db3d81b40ff3b480a8f8c532248dbdcdf10"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "bf45320654140c2bbbd7c26f5dfa48611ad94263aa52bbb0481bdb708703babc"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.1-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.1"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "80760ade6bc6ba74f90ae6fb23cdfc06290866d7"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "bb58a6dc11bbfd2d930bd345cda0d212a5dd4ed5ef1686fe3374234f67361506"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.1-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.1"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "71d894abd595912a1da3cc915ee80c2c55677c20"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "99f8041a97b42995bf4a85d7c59aaa0aee8099b932525287ea6defaa2b52fcbb"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.1-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.2"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7e90f77bace6a2727170ad69c442143553436953"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "f6c4bf8507ad01714deff1f642d91d67fcf5d2fddf5ad33ccef2dc854fd16f04"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx03-cuda+12.2.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.2"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "636dcc7dc31a4577d43a64f004ae4f80fbf313a7"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "5c2c77b757a005a797652309c1b043be3595c0ebd0b524c8889b89ab96bcc9cd"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx11-cuda+12.2.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.2"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a68434f07bb1201f6b357982b1250d9430372fba"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "36f8b75af3ab2d8ed1acfc4e04935be21b5cb7fbe0deb2efb26a3e92b691c5f3"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.2-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.2"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e01e5ee4f03836d821d0f75ae9cc1fce9b393b68"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "dd941a9a3019befa412ad1f045b56bf68c5581416a412e9723b5c4b688f91af5"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.2-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.2"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "80bf165980026ee5e79c999477d965313e79a47f"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "01b41c9d77894d666c40e35fe07ff8e7551ddd04b9db410ae74023154842922b"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.2-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.2"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0b79c13a13b848d1ee7778cd1750bca89b3545ad"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "96e6aa9ef1f8d92ec1894a8e4ad00fc3d1d855a9406a51245675e0484151d86a"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.2-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.3"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "91b1c4c31035cd896eac409d424c236e3c25698a"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "107b1bc518ced2eabe5c1b7d7cd1d02c2654771cd2897237f9aa2838d84335a1"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx03-cuda+12.3.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.3"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "48763442e295a7791e96a4559f2fb940d3425f66"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "279ac9e5e318684304b9c9a51e4f452a73a8cd2fefcd0cff3bafb7dff078ba39"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx11-cuda+12.3.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.3"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2c00e3d54d1f0d80edaf08591a47cf7230e6ffd2"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "929101a51f397b535d35bd1cce50a1293276254e6e71d773624b931cec1d4ea9"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.3-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.3"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b38cc55f976226b1f0935bf9d7886be4d2d687d6"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "3338d5fc51f082647d14b96c15153a07121924d455c5bf9563e5ff0b4bd97237"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.3-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.4"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "504ae96f865d64a0e2a0fb4e12e5a8c27e03a746"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "232204cf53e766e97e87034855d50914fb772a29da56acd204246cb23c42c3f0"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx03-cuda+12.4.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.4"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0cb892d71e15b6e1c761ba399a878697cb6bcce7"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "6bca48161de59fc59f405aaf7b551b4f675e759a4dc8dea63e059bc995efac9a"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx11-cuda+12.4.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.4"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "4c26c3d7fee6a7135f3808e1386aea30a55e5ec5"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "00373011ff93789607676b22839b2312e0e5df9b71b9cf01dd16761f54006090"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.4-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.4"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "43e18292b100451ba235761904ee2edf75eff7fd"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "cb21c2e20faa14155419376b3fc5a853b7791fde82387936d8260682aacc3f93"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.4-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.4"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7b43d48a6b46b8a38c01ddb3bc7dc248f4e08da9"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "bd21fd961308d87b597a83578eda023cc86a30fd59d6d293d68db2e16f90e7da"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.4-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.4"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e82d37a35ae0b10f12ede9a4c4d33093e4809fd8"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "e2d309e6bb560705c83d4a9a16d5dc86d5b4ddc363fa23b207abc81a6dc5b9fa"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.4-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.5"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "faf97c31110e5aaba92f8ee3fd44207c8f1217bd"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "ebeb8b40243735d2203151ca71ab7efe0d4dbeee595d12b4223e1af08ff628c7"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx03-cuda+12.5.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.5"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ac46a5a9ec6bd1eb6399a3bff1e9d869789d9603"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "e9c71d3b642526a5b4461771c455ecc04182e20c162a9e0bd86c62aa8c82e55c"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx11-cuda+12.5.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.5"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "865478c762edffcb1051763c506322bae0cca548"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "d1c9269af03bb4b887a1fa1137a15c616896c72c4fbbd96b8f53987fb73bf621"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.5-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.5"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "e15790bc869cc9b1bc5be5cefcfa2eecf0ce1688"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "fe749b508e86b3f55b4801884dd777bad09c58e6feae950162b78f2b90f6b1ce"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.5-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.5"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b94bd200058c9825436a5f3a3c50595e3e2b8d14"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "f39581d9b0e6d1ccecc6d452e38ab46f92d58a5f72517b2e99eedfae02fdcb36"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.5-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.5"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a42a14b9ae0d3a588b836cfb977374321b2e7033"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "ff7fe6cd1cfed7585d906cd0ed16b1fe4482f0ae51e94c4ef76742ccffee3e4d"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.5-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.6"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c7e92e5b9c7e5618738d037757964c2eea6e132f"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "5af117b0fb3520533d5a4c31b059b13932aaf1da3dc026562c6e2b2a225f0bb0"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx03-cuda+12.6.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.6"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6fb0bac6c5a5dcf18f389bff17c8fddec61595d7"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "68b8d2d48547c1d763b4ee6dd04f530969bac6c012e5d79abb1b2843f1f23db7"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx11-cuda+12.6.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.6"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "21f2705744ba5af902e6b6081dd5ece72afddc45"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "60cbdf6b957ce49cc490a28f80fe61398ef100b99178efd0b3ca75d333ee49c5"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.6-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.6"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2a94d4f2557802c257d4e2c9fb49ee7dd1fe6f3c"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "f3d833d3b30e90119b0bb0f412e0c6927975afc241b8e8339a8bc96ca538751c"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.6-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.6"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "719e2e650a8c47b6218ad33575b1e3e0bee630ef"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "49667fafb9643edb289d9e34fdbb115ed5ad8a022959e3b7ba43c4ef9e6f81d4"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.6-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.6"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d8303d6c023d1b69ac0695d2ebb70e3b7e5c90e1"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "fce9035cac973f301b3c5aeda23b7adb719b51a9a224c93da83c5603b4de59df"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.6-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.8"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6359d4143f2aa8fd2aa76346fc088bcbc9f61dbc"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "8faf11faa83f98a578a8862b24c91320682cf16f802a9ad11e8856391f3bc859"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx03-cuda+12.8.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.8"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "054838efb5c1263d93b8e14c55b2ac4d76f88708"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "97c52b7e659fbf7e2d59d308e8faa174b5ff58f41cd6442d43d6c3437e38b197"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx11-cuda+12.8.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6f5c1e24173026f90b16d8d065b27bda1c51079f"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "02b867ab71d1dbaf10e1b2315e2303e6e6f506ce827a8583ab6be36401b3d3df"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.8-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "935d06ff59f05491352fb68fd2ce8b424203e6c5"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "39c1884f11696f3263cc5c5961b5961ab6c3c37fc18cdab77f59087bc422fe3e"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.8-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "09df4bba763516c7183473b79f2291211ee61454"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "764c5db311d32ff4c2a7f7253efa55b5a627b21f60bc9f724e6599a784ff31fa"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.8-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1f9d1437ab95318f65ac903155cf5271ed0d341d"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "9aeb01e8f155bfa767c864198b80be8cbf49b2a1db3a2da895e75e6d71f98d5a"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.8-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.9"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ec1064034ac59b47106318a0bfa10bf5d3ce493b"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "b4cc9324d54a6981df4d75671f5aa590c57a33292f4e7caefecf90e1d08c85e0"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx03-cuda+12.9.tar.gz"
+[[MAGMA]]
+arch = "x86_64"
+cuda = "12.9"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "bfb47706fc9f68c00a4004e2a9d9455a7fd7eab9"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "90e2f91dcef2f6bed3a541e01e4bb985f6a044b10e7248d6d3ade8a014f468a8"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.x86_64-linux-gnu-cxx11-cuda+12.9.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "98f72c9af1e080b5f1e1d769e6636d02c267f5a8"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "ca60cf622482fa44acfbf7d9adf8d10c556c6565d76813ac0f881f1ba99237d4"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.9-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cf77aa5af2a9a254134bfc179b9ea0c4eb40217d"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "4d8e0f34388fbc04dfa691a65f51b19940865234009577aeafc536c75d88cb6b"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.9-cuda_platform+jetson.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5cb637584b90749c87d1208dc5a2cf1a3b6c243f"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "d2df6ecc5676472438a747adf46b6e98689021d9821fcdf18e63f1f39b89ac24"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx03-cuda+12.9-cuda_platform+sbsa.tar.gz"
+[[MAGMA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1e8c0e49eab0f0347ddc06ecedbb1d2a8cdac725"
+libc = "glibc"
+os = "linux"
+
+    [[MAGMA.download]]
+    sha256 = "495ead34e15dd87f85e4dd0d4851d5ae4cae1e0d68b7227feadfa91dcc1fa544"
+    url = "https://github.com/JuliaBinaryWrappers/MAGMA_jll.jl/releases/download/MAGMA-v2.9.0+0/MAGMA.v2.9.0.aarch64-linux-gnu-cxx11-cuda+12.9-cuda_platform+sbsa.tar.gz"
